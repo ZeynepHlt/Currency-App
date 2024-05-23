@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .input_style {
+    @apply w-44 py-1 border-2 border-t_green rounded-md mx-2;
+  }
+}
